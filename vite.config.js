@@ -35,14 +35,13 @@ export default defineConfig({
   },
   // --- Development Server Configuration ---
   server: {
-    host: "0.0.0.0",
     port: 3300, // <--- Development server port
     host: true,
   },
   // --- Production Preview Configuration ---
   preview: {
     host: true,
-    host: "0.0.0.0",
+
     port: 3300, // <--- Production *preview* server port (for 'vite preview')
     allowedHosts: ["yiwu-lvna.com", "www.yiwu-lvna.com"],
   },
